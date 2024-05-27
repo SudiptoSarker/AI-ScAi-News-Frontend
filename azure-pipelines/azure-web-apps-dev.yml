@@ -1,0 +1,42 @@
+trigger:
+  - develop
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: "18.x"
+    displayName: "Install Node.js"
+
+  - script: |
+      npm install
+      npm run build
+    displayName: "npm install and build"
+
+  - script: |
+      mkdir deploy_package
+      cp -r .next deploy_package/
+      cp package.json deploy_package/
+      cp package-lock.json deploy_package/
+    displayName: "Prepare deploy package"
+
+  - task: PublishPipelineArtifact@1
+    inputs:
+      targetPath: "$(System.DefaultWorkingDirectory)/deploy_package"
+      artifact: "next-app"
+
+  - task: AzureRmWebAppDeployment@4
+    inputs:
+      ConnectionType: "AzureRM"
+      azureSubscription: $(subscription)
+      appType: "webAppLinux"
+      WebAppName: "laboaichatdev"
+      packageForLinux: "$(System.DefaultWorkingDirectory)/deploy_package"
+      RuntimeStack: "NODE|18"
+      StartupCommand: "npm run start"
+      ScriptType: "Inline Script"
+      InlineScript: |
+        npm install
+    displayName: "Deploy to Azure Web Apps"

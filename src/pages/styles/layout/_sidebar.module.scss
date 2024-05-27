@@ -1,0 +1,66 @@
+@import '../variables.module';
+//@import "../../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+.sidebarArea {
+  flex-shrink: 0;
+  width: $sidebarWidth;
+  background-color: $sidebarColor;
+  .sidenav-bg:hover {
+    background-color: $gray-100;
+    border-radius: $border-radius;
+  }
+}
+.sidebarNav{
+  font-size: 10px;
+  font-family: Yu Gothic;
+  white-space: nowrap !important;
+}
+
+@media (max-width: 991.98px) {
+  .sidebarArea {
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    z-index: 1;
+    margin-left: -$sidebarWidth;
+    transition: 0.2s ease-in;
+    &.showSidebar {
+      margin-left: 0px;
+    }
+  }
+}
+.custom_hr{
+  color: #ccc !important;
+}
+
+
+//added by sudipto, 6th mar,2024
+.navbar-nav {
+  flex-shrink: 0;
+  width: $sidebarWidth;
+  //background-color: $sidebarColor;
+  .sidenav-bg:hover {
+    background-color: $gray-100;
+    border-radius: $border-radius;
+  }
+}
+.sidebarNav{
+  font-size: 10px;
+  font-family: Yu Gothic;
+  white-space: nowrap !important;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    // position: fixed;
+    height: 0%;
+    overflow: auto;
+    z-index: 1;
+    margin-left: -$sidebarWidth;
+    transition: 0.2s ease-in;
+    &.showSidebar {
+      margin-left: 0px;
+    }
+  }
+}

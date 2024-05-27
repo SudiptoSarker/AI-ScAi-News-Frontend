@@ -1,0 +1,53 @@
+.common-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: -2px;
+}
+.tag_instruction{
+    font-size: 10px;
+}
+.secton_card_title{    
+    font-size: 10px;
+    font-family: Yu Gothic;
+    border-radius:3px;
+}
+.question_sub_heading{
+    color: green;
+    font-size: 12px;
+}
+.question_title_input{
+    display: inline-block;
+    width: 100%;
+}
+.request_instruction{
+    font-size: 12px;
+}
+.card_body{
+    font-size: 10px;
+    font-family: Yu Gothic;
+    white-space: nowrap !important;
+}
+.radio-custom {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-right: 5px;
+    position: relative;
+}
+
+input[type="radio"]:checked + .radio-custom::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

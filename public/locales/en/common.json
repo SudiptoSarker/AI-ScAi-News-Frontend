@@ -1,0 +1,216 @@
+{
+    "common":{
+        "data_per_page_text_1":"Show",
+        "data_per_page_text_2":"Data"
+    },
+    "user_links":{
+        "profile_title":"Profile",
+        "theme":{
+            "theme_title":"Theme",
+            "theme_registration":"Theme Registration"
+        },
+        "articles_title":"Articles"
+    },
+    "admin_links":{
+        "tags_title":"Tags",
+        "users_list_title":"Users List",
+        "configuration":{
+            "configuration_title":"Configuration",
+            "users_form_config":"Users Form Config",
+            "resource_site":"Resource Site"
+        },
+        "user_panel":"User Panel"
+    },
+    "page.users.theme_registration":{
+        "page_header_text":"User-Theme Registration",
+        "section_header_text":"Tags",
+        "section_header_small_text":"Please choose the following tag to set the theme",
+        "input_label":"Title",
+        "display_message":"Please select a tag for showing the questions.",
+        "missed_message":"In case you missed something. Please add below",
+        "request_label":"Request",
+        "button_text":"Register New",
+        "question_text":"Question",
+        "no_question":"There are no questions for the tags. Please generate questions.",
+        "other_header":"Questionnaire",
+        "other_text":"This questionnaire will improve your content",
+        "update_text":"Update",
+        "save_text":"Save",
+        "instruction_for_tag":"To add your preferred tag, please email support-mail with your request.",
+        "save_alert":"Save Successfully",
+        "update_alert":"Update Successfully"
+        
+    },
+    "page.users.profile":{
+        "section_header_personal_information":"Personal Information",
+        "section_header_theme_list":"Theme List",
+        "edit_button_text":"Edit",
+        "delete_button_text":"Delete",
+        "th_no":"No.",
+        "th_theme_name":"Theme Name",
+        "th_tag_name":"Tag Name",
+        "th_title":"Title",
+        "th_resource_site":"Resource Site",
+        "th_questionnaire":"Questionnaire",
+        "th_action":"Action",
+        "no_theme":"The User does not have any theme yet!",
+        "edit_text":"Edit",
+        "submit_text":"Submit",
+        "delete_header":"Edit Alert!",
+        "delete_confirm_text":"Are you sure you want to edit?",
+        "delete_close_btn":"Close",
+        "delete_confirm_btn":"Confirm"
+    },
+    "page.users.article":{
+        "theme_section_header":"Themes",
+        "article_section_header":"Articles",        
+        "no_theme":"No Theme found",
+        "no_article":"No Article found",
+        "no_article2":"No Article found",
+        "read_more":"Read More",
+        "unselect_all":"Unselect All",
+        "select_all": "Select All"
+    },
+    "page.users.info_register":{
+        "info_register_section_header":"Personal Information",
+        "save_button_text":"Update"
+    },
+
+    
+    "page.admin.questionnaire":{
+        "section_header":"Admin-Tag Questionnaire",
+        "invalid_url":"Invalid URL! Please select the correct tag to generate questions.",
+        "text_1":"Generate button: Please insert the question count and option count to generate questions with options using AI.",
+        "text_2":"Create button: You can generate the question manually using the question count and option count.",
+        "text_3":"In the questionnaire, you can create/remove options by hitting the + button.",
+        "no_question":"There are no questions for the tags. Please generate questions.",
+        "delete_modal_text_1":"Confirm Question Delete",
+        "delete_modal_text_2":"Are you sure you want to delete the question?",
+        "cancel_button_text":"Cancel",
+        "delete_button_text":"Delete",
+        "question_header":"Question",
+        "create_button":"Create",
+        "generate_button":"Generate",
+        "question_text":"Question",
+        "option_count_placeholder":"option count",
+        "question_count_placeholder":"question count",
+        "update_text":"Update",
+        "save_text":"Save"
+    },
+    "page.admin.tags":{
+        "page_header":"Admin-Tag Register",
+        "section_header1":"Tag Register",
+        "field_1":"Tag Name",
+        "section_header2":"Tag List",
+        "delete_modal_header":"Confirm Delete",
+        "delete_modal_text_1":"Are you sure you want to delete?",
+        "delete_modal_cancel_button_text":"Cancel",
+        "delete_modal_delete_button_text":"Delete",
+        "placeholder":"Enter tag name",
+        "th_id":"ID",
+        "th_tag_name":"Tag Name",
+        "th_questionnaire":"Questionnaire",
+        "th_actions":"Actions",
+        "no_tags":"No tags available",
+        "generated":"Generated",
+        "not_generated":"Not Generated",
+        "edit_button":"Edit",
+        "delete_button":"Delete",
+        "add_button_text":"Add",
+        "update_button_text":"Update",
+        "undo_button":"Undo",
+        "add_validation":"Enter a tag name!",
+        "tag_exists_validation":"Tag already exists! Enter a new tag name.",
+        "success_msg":"Tag added/updated successfully!"
+    },
+    "page.admin.user_list":{
+        "section_header":"User List",
+        "no_user":"No users available",
+        "th_sl":"SL No.",
+        "th_name":"Name",
+        "th_age":"Age",
+        "th_mail":"Mail",
+        "th_actions":"Actions",
+        "view_button":"View"
+    },
+    "page.admin.user_profile":{
+        "section_header_personal_information":"Personal Information",
+        "section_header_theme_list":"Theme List",
+        "edit_button_text":"Edit",
+        "th_no":"No.",
+        "th_theme_name":"Theme Name",
+        "th_tag_name":"Tag Name",
+        "th_title":"Title",
+        "th_action":"Action",
+        "no_theme":"The User does not have any theme yet!",
+        "view_text":"View"
+    },
+    "page.admin.resource_sites":{
+        "page_header":"Admin-Resource Site Registration",
+        "section_title1":"Resource Site Registration",
+        "input_field1":"Site URL",
+        "placeholder1":"enter site url",
+        "placeholder2":"enter website tags",
+        "other_text1":"Web Structure",
+        "other_text2":"Configure resource site’s structure to scrap data",
+        "section_header2":"Site List",
+        "th_type":"Type",
+        "th_value":"Value",
+        "save_btn":"Save",
+        "edit_btn":"Edit",
+        "delete_btn":"Delete",
+        "generated":"Generated",
+        "not_generated":"Not Generated",
+        "th_no":"No.",
+        "th_site_name":"Site Name",
+        "th_configure":"Configure",
+        "th_actions":"Actions"
+        
+    },
+    "page.admin.user_config":{
+        "page_header":"Admin-User Personal Info Form Configuration",
+        "section_title1":"Personal Information Form Fields Register",
+        "other_text1":"To get a better user nature you can include the following fields in the personal information form:",
+        "other_text2":"Full_name, Date_of_birth, Gender, Address, Phone_number, Email_address, Education, Employment_history, Hobby, Personality_traits, Strengths, Weakness, Fears, Motivations, Communication_style, Decision_making_style",
+        "input_1":"Field Name",
+        "input_1_placeholder":"enter field name",
+        "input_2":"Field Position",
+        "input_2_placeholder":"enter field position",
+        "input_3":"Required",
+        "section_title2":"Field List",
+        "th_position":"Position",
+        "th_field_name":"Field Name",
+        "th_type":"Type",
+        "th_action":"Action",
+        "edit_button":"Edit",
+        "delete_button":"Delete",
+        "delete_modal_header":"Confirm Delete",
+        "delete_modal_text":"Are you sure you want to delete?",
+        "delete_modal_cancel_button":"Cancel",
+        "delete_modal_delete_button":"Delete",
+        "update_text":"Update",
+        "add_text":"Add",
+        "required_text":"Required",
+        "not_required_text":"Not Required",
+        "field_exists_validation":"Field name already exists"
+        
+    },
+    "page.admin.theme_view":{
+        "page_header":"User-Theme View",
+        "section_header1":"Tags List",
+        "other_text1":"The selected themes cannot be changed.",
+        "input_1":"Title",
+        "section_header2":"Questionnaire",
+        "other_text2":"This questionnaire will improve your content",
+        "no_question":"There are no questions for the tags. Please generate questions.",
+        "other_text3":"Please select a tag for showing the questions.",
+        "other_text4":"Request",
+        "question_text":"Question"
+
+
+    }
+
+    
+
+
+}

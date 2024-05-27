@@ -1,0 +1,85 @@
+.question_title_input{
+    display: inline-block;
+    width: 80%;
+}
+.remove_icon{
+    cursor: pointer;
+}
+.generate_textbox{
+    height: 30px;
+    width: 15%;
+    margin-right: 2%;
+}
+.generate_textbox::placeholder,
+.custome_input_field::placeholder {
+    opacity: 0.6;
+}  
+.custome_input_field {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: -2px;
+}
+
+.option_container{
+    margin-bottom: 20px;
+}
+.option{
+    width: 50%;
+    margin-bottom: 10px;
+}
+.create_option{
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/***Options**/
+.input-group-text,.input_element{
+  height: 23px;
+  font-size: 10px;
+  font-family: Yu Gothic;
+  white-space: nowrap !important;
+}
+.remove_option{
+    height: 23px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px !important;
+}
+.button_input_container {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 10px; 
+}
+  .header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-end;
+  }
+#tag_name{
+    text-align: left;
+}
+.smaller_input {
+    width: 100px; 
+}
+.question_container {
+    $shadow-color: rgba(0, 0, 0, 0.1);
+    $shadow-offset-x: 0;
+    $shadow-offset-y: 4px;
+    $shadow-blur-radius: 8px;
+
+    // Apply the shadow using variables
+    box-shadow: $shadow-offset-x $shadow-offset-y $shadow-blur-radius $shadow-color;
+}
+
+.custom_smaller_input {
+    width: 80px; /* Adjust the width as needed */
+}
+
+.card-title{
+    margin-top: -6px;
+}

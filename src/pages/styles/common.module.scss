@@ -1,0 +1,27 @@
+.card_body{
+    font-size: 10px;
+    font-family: Yu Gothic;
+    white-space: nowrap !important;
+}
+/*DELETE MODAL CENTER ALIGN*/
+.modal-dialog {
+    transform: translate(-50%, -50%);
+    top: 23%;
+}
+/*ICON DESIGN FOR PLUS/MINUS*/
+.custom-plus-circle-icon {
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;    
+}
+.custom-minus-circle-icon{
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;    
+}
+.custom-form-control{
+    font-size: .6rem;
+}
+.text-primary {
+    background: #f0f8ff !important;
+}
